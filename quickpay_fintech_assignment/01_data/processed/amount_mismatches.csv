@@ -1,0 +1,17 @@
+transaction_id_ledger,transaction_date_ledger,merchant_id,amount_usd_ledger,status_ledger,payment_method_ledger,transaction_id_gateway,transaction_date_gateway,amount_usd_gateway,status_gateway,payment_method_gateway
+R001,2026-03-01,M001,1200.0,success,UPI,R003,2026-03-02,500.0,success,Wallet
+R001,2026-03-01,M001,1200.0,success,UPI,R008,2026-03-04,600.0,success,Card
+R002,2026-03-01,M002,850.0,success,Card,R002,2026-03-01,900.0,success,Card
+R002,2026-03-01,M002,850.0,success,Card,R006,2026-03-03,950.0,success,UPI
+R002,2026-03-01,M002,850.0,success,Card,R009,2026-03-05,4100.0,success,Card
+R003,2026-03-02,M001,500.0,success,Wallet,R001,2026-03-01,1200.0,success,UPI
+R003,2026-03-02,M001,500.0,success,Wallet,R008,2026-03-04,600.0,success,Card
+R004,2026-03-02,M003,2100.0,success,Card,R011,2026-03-05,1800.0,success,Card
+R006,2026-03-03,M002,950.0,success,UPI,R002,2026-03-01,900.0,success,Card
+R006,2026-03-03,M002,950.0,success,UPI,R009,2026-03-05,4100.0,success,Card
+R008,2026-03-04,M001,640.0,success,Card,R001,2026-03-01,1200.0,success,UPI
+R008,2026-03-04,M001,640.0,success,Card,R003,2026-03-02,500.0,success,Wallet
+R008,2026-03-04,M001,640.0,success,Card,R008,2026-03-04,600.0,success,Card
+R009,2026-03-05,M002,4100.0,success,Card,R002,2026-03-01,900.0,success,Card
+R009,2026-03-05,M002,4100.0,success,Card,R006,2026-03-03,950.0,success,UPI
+R010,2026-03-05,M004,2500.0,success,Wallet,R005,2026-03-03,7200.0,failed,Card

@@ -1,0 +1,5 @@
+payment_method,amount_usd
+Card,14890.0
+NetBanking,3300.0
+UPI,2150.0
+Wallet,3000.0

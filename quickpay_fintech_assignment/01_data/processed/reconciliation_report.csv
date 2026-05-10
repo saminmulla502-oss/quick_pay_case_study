@@ -1,0 +1,5 @@
+metric,count
+missing_in_gateway,0
+missing_in_ledger,0
+amount_mismatches,16
+status_mismatches,2
